@@ -1,0 +1,140 @@
+/* Nav Bar */
+header{ 
+    height: 30px;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+    color: #3d3c3c;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 10px; /* top | right | bottom | left */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tilelogo {
+    float: right;
+    padding: 15px 5px 0px 15px;
+    margin-top: -5px;
+ }
+
+li {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.signin {
+    margin-top: -5px;
+    background:  #4285f4;
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+}
+
+
+/* Logo and blocks to set width in order to center all items*/
+
+.logo {
+display: block;
+margin: 0 auto;
+}
+
+
+.span{
+    text-align:center;
+    margin-top: 200px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+
+/* Search Bar*/
+.search{
+    -webkit-appearance: none;
+    padding: 4px 45px 4px 20px;    /* top | right | bottom | left */
+    border: none;
+    width: 484px;
+    height: 44px;
+    font: 16px arial,sans-serif;
+    border-color: rgb(235, 235, 235);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16), 
+        0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.search:focus{
+        outline:none;
+}
+.search:hover{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16), 
+        0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+/* Buttons*/
+
+.button{
+margin-top: 25px;
+}
+
+button{
+    margin: 11px 4px;
+    height: 36px;
+    width: 125px;
+    background-color: #f3f3f3;
+    border:none;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 54px;
+}
+
+button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222222;
+    min-width: 54px;
+    text-align: center;
+}
+
+
+/* Footer*/
+
+footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 30px;
+    position: absolute;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 20px;
+}
+
