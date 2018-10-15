@@ -242,3 +242,30 @@ a {
     right: 200px;
 
 }
+.pages{
+    width:100%;
+    align-content: center;
+    padding: 20px 0 0 50px;
+}
+
+.numbers {
+    margin-left: 110px;
+}
+.numbers a {
+    padding: 3px;
+}
+.footer li {
+    display: inline;
+}
+.footer li a {
+    -webkit-appearance: none;
+    text-decoration: none;
+    color: #3d3c3c;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;}
+
+.footer {
+    border-top: solid 1px #000000;
+    padding: 20px 0 50px 100px;
+}
